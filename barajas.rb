@@ -35,7 +35,7 @@ class Baraja
 
     #Crear el método barajar que debe desordenar el arreglo de cartas
     def barajar
-        @cartas = self.cartas.shuffle
+        self.cartas = self.cartas.shuffle
     end
 
     #Crear el método sacar que permita retirar la primera carta de la baraja
