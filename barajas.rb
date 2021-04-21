@@ -42,7 +42,6 @@ class Baraja
     def retirarPrimeraCarta
         primera = self.cartas.pop
         print "La primera carta es: " + primera.numero.to_s + " de " + primera.pinta
-        @cartas = cartas
     end
 
     #Crear el método repartir mano que devolverá un arreglo con las primeras 5 cartas de la baraja.
